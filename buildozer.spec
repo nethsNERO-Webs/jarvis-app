@@ -5,14 +5,12 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,kivy==2.2.1
+requirements = python3==3.10.12,kivy==2.2.1,hostpython3==3.10.12
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
-android.api = 31
+android.api = 33
 android.minapi = 21
-android.ndk_path = 
-android.sdk_path = 
 android.accept_sdk_license = True
 
 [buildozer]
